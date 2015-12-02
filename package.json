@@ -1,0 +1,17 @@
+{
+  "name": "multiwindow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . MyApp --platform=win32 --arch=x64 --version=0.27.2"
+  },
+  "author": "Freya",
+  "license": "ISC",
+  "devDependencies": {
+    "asar": "^0.8.3",
+    "electron-packager": "^5.1.1",
+    "electron-prebuilt": "^0.35.2"
+  }
+}
